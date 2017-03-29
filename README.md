@@ -4,7 +4,7 @@ CRUD Generator for AdminLTE
 
 [![Total Downloads](https://poser.pugx.org/playnowgames/laracrud/downloads)](https://packagist.org/packages/playnowgames/laracrud)
 [![Latest Stable Version](https://poser.pugx.org/playnowgames/laracrud/v/stable)](https://packagist.org/packages/playnowgames/laracrud)
-[![Latest Unstable [![Latest Unstable Version](https://poser.pugx.org/playnowgames/laracrud/v/unstable)](https://packagist.org/packages/playnowgames/laracrud)
+[![Latest Unstable Version](https://poser.pugx.org/playnowgames/laracrud/v/unstable)](https://packagist.org/packages/playnowgames/laracrud)
 [![License](https://poser.pugx.org/playnowgames/laracrud/license)](https://packagist.org/packages/playnowgames/laracrud)
 
 ### Requirements
