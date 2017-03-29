@@ -2,10 +2,10 @@
 CRUD Generator for AdminLTE
 
 
-[![Total Downloads](https://poser.pugx.org/goszowski/crud-generator-admin-lte/d/total.svg)](https://packagist.org/packages/goszowski/crud-generator-admin-lte)
-[![Latest Stable Version](https://poser.pugx.org/goszowski/crud-generator-admin-lte/v/stable.svg)](https://packagist.org/packages/goszowski/crud-generator-admin-lte)
-[![Latest Unstable Version](https://poser.pugx.org/goszowski/crud-generator-admin-lte/v/unstable.svg)](https://packagist.org/packages/goszowski/crud-generator-admin-lte)
-[![License](https://poser.pugx.org/goszowski/crud-generator-admin-lte/license.svg)](https://packagist.org/packages/goszowski/crud-generator-admin-lte)
+[![Total Downloads](https://poser.pugx.org/playnowgames/laracrud/downloads)](https://packagist.org/packages/playnowgames/laracrud)
+[![Latest Stable Version](https://poser.pugx.org/playnowgames/laracrud/v/stable)](https://packagist.org/packages/playnowgames/laracrud)
+[![Latest Unstable [![Latest Unstable Version](https://poser.pugx.org/playnowgames/laracrud/v/unstable)](https://packagist.org/packages/playnowgames/laracrud)
+[![License](https://poser.pugx.org/playnowgames/laracrud/license)](https://packagist.org/packages/playnowgames/laracrud)
 
 ### Requirements
     Laravel >=5.1
@@ -13,11 +13,11 @@ CRUD Generator for AdminLTE
 
 ## Installation
 
-1. Edit your project's composer.json file to require "Goszowski/crud-generator-admin-lte"
+1. Edit your project's composer.json file to require "playnowgames/laracrud"
 
     ```
     "require": {
-      "goszowski/crud-generator-admin-lte": "dev-master",
+      "playnowgames/laracrud": "dev-master",
     }
     ```
 2. Run
@@ -29,7 +29,7 @@ CRUD Generator for AdminLTE
     'providers' => [
         ...
 
-        Goszowski\CrudGeneratorAdminLte\CrudGeneratorAdminLteServiceProvider::class,
+        PlaynowGames\CrudGeneratorAdminLte\CrudGeneratorAdminLteServiceProvider::class,
     ],
     ```
 4. Install **laravelcollective/html** package for form & html.
@@ -61,7 +61,7 @@ CRUD Generator for AdminLTE
 
 5. Publish config file & generator template files.
     ```
-    php artisan vendor:publish --provider="Goszowski\CrudGeneratorAdminLte\CrudGeneratorAdminLteServiceProvider::class"
+    php artisan vendor:publish --provider="PlaynowGames\CrudGeneratorAdminLte\CrudGeneratorAdminLteServiceProvider::class"
     ```
 Note: You should have configured database for this operation.
 
@@ -170,7 +170,7 @@ You can customize the generator's stub files/templates to achieve your need.
 
 1. Make sure you've published package's assets.
     ```
-    php artisan vendor:publish --provider="Goszowski\CrudGeneratorAdminLte\CrudGeneratorServiceProvider"
+    php artisan vendor:publish --provider="PlaynowGames\CrudGeneratorAdminLte\CrudGeneratorServiceProvider"
     ```
 
 2. Turn on custom_template support on **/config/crudgenerator_admin_lte.php**
