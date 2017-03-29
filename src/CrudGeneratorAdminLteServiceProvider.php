@@ -1,6 +1,6 @@
 <?php
 
-namespace Goszowski\CrudGeneratorAdminLte;
+namespace PlaynowGames\CrudGeneratorAdminLte;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -41,12 +41,12 @@ class CrudGeneratorAdminLteServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands(
-            'Goszowski\CrudGeneratorAdminLte\Commands\CrudCommand',
-            'Goszowski\CrudGeneratorAdminLte\Commands\CrudControllerCommand',
-            'Goszowski\CrudGeneratorAdminLte\Commands\CrudModelCommand',
-            'Goszowski\CrudGeneratorAdminLte\Commands\CrudMigrationCommand',
-            'Goszowski\CrudGeneratorAdminLte\Commands\CrudViewCommand',
-            'Goszowski\CrudGeneratorAdminLte\Commands\CrudLangCommand'
+            'PlaynowGames\CrudGeneratorAdminLte\Commands\CrudCommand',
+            'PlaynowGames\CrudGeneratorAdminLte\Commands\CrudControllerCommand',
+            'PlaynowGames\CrudGeneratorAdminLte\Commands\CrudModelCommand',
+            'PlaynowGames\CrudGeneratorAdminLte\Commands\CrudMigrationCommand',
+            'PlaynowGames\CrudGeneratorAdminLte\Commands\CrudViewCommand',
+            'PlaynowGames\CrudGeneratorAdminLte\Commands\CrudLangCommand'
         );
     }
 }

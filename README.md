@@ -13,14 +13,14 @@ CRUD Generator for AdminLTE
 
 ## Installation
 
-1. Edit your project's composer.json file to require "goszowski/crud-generator-admin-lte"
+1. Edit your project's composer.json file to require "Goszowski/crud-generator-admin-lte"
 
     ```
     "require": {
       "goszowski/crud-generator-admin-lte": "dev-master",
     }
     ```
-2. Run 
+2. Run
     ```
     composer update
     ```
@@ -106,7 +106,7 @@ php artisan crud:controller PostsController --crud-name=posts --model-name=Post 
 For model generator:
 
 ```
-php artisan crud:model Post --fillable="['title', 'body']" 
+php artisan crud:model Post --fillable="['title', 'body']"
 ```
 
 For migration generator:
@@ -178,4 +178,3 @@ You can customize the generator's stub files/templates to achieve your need.
     'custom_template' => true,
     ```
 3. From the directory **/resources/crud-generator-admin-lte/** you can modify or customize the stub files.
-

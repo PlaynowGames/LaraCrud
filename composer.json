@@ -1,18 +1,20 @@
 {
-    "name": "goszowski/crud-generator-admin-lte",
+    "name": "playnowgames/laracrud",
     "license": "MIT",
-    "description": "Laravel 5 CRUD Generator for AdminLTE",
+    "description": "Laravel 5 Modular CRUD Generator for AdminLTE",
     "keywords": [
         "laravel",
         "crud",
         "crud generator",
+        "Modules",
+        "Crud modules",
         "laravel crud generator",
         "admin lte"
     ],
     "authors": [
         {
-            "name": "Jarosław Goszowski",
-            "email": "goszowski@gmail.com"
+            "name": "Erick Eden Fróes",
+            "email": "erickedenf@gmail.com"
         }
     ],
     "require": {
@@ -21,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Goszowski\\CrudGeneratorAdminLte\\": "src/"
+            "PlaynowGames\\CrudGeneratorAdminLte\\": "src/"
         }
     }
 }

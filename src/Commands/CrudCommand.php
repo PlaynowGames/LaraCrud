@@ -1,6 +1,6 @@
 <?php
 
-namespace Goszowski\CrudGeneratorAdminLte\Commands;
+namespace PlaynowGames\CrudGeneratorAdminLte\Commands;
 
 use File;
 use Illuminate\Console\Command;
